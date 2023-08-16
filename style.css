@@ -1,0 +1,35 @@
+body{
+    color: aliceblue;
+    background: rgb(52,55,189);
+    background: linear-gradient(90deg, rgba(52,55,189,1) 0%, rgba(61,16,79,1) 100%);
+}
+.btn-group{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.intro {
+    margin-top: 5%;
+    text-align: center;
+}
+h1 {
+    font-family: garamond;
+}
+p{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight:lighter;
+    font-family: garamond;
+    font-size: 30px ;
+}
+#git {
+    /* padding-right: 10%;     */
+    font-family: garamond;
+    font-weight: 300;
+}
+#git:hover{
+    transform: scale(1.1);
+    background-color: red;   
+
+}
