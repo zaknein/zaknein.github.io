@@ -6,6 +6,7 @@ body{
     
 }
 .btn-group{
+
     margin-top: 1%;
     display: flex;
     justify-content: center;
@@ -54,6 +55,7 @@ p{
     /* padding-right: 10%;     */
     font-family: garamond;
     font-weight: 300;
+    margin-right: 5px;
 }
 #git:hover{
     transform: scale(1.1);
@@ -61,7 +63,6 @@ p{
 
 }
 #hab{
-    /* padding-right: 10%;     */
     font-family: garamond;
     font-weight: 300;
 }
@@ -69,6 +70,10 @@ p{
     transform: scale(1.1);
     background-color: #55565b;   
 
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 a :hover{
     transform: scale(1.1);
