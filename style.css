@@ -1,7 +1,9 @@
 body{
     color: aliceblue;
-    background: rgb(52,55,189);
-    background: linear-gradient(90deg, rgba(52,55,189,1) 0%, rgba(61,16,79,1) 100%);
+    background-color: #232429;
+    /* background: linear-gradient(90deg, rgba(52,55,189,1) 0%, rgba(61,16,79,1) 100%); */
+    /* background-color: #55565b; */
+    
 }
 .btn-group{
     margin-top: 1%;
@@ -9,9 +11,34 @@ body{
     justify-content: center;
     text-align: center;
 }
+.titulito{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
 .intro {
     margin-top: 5%;
     text-align: center;
+    margin-bottom: 10%;
+}
+.habilidades{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+#macaco{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    height: 300px;
+    width: 350px;
+}
+#habilidades{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
 }
 h1 {
     font-family: garamond;
@@ -23,13 +50,33 @@ p{
     font-family: garamond;
     font-size: 30px ;
 }
-#git {
+#git  {
     /* padding-right: 10%;     */
     font-family: garamond;
     font-weight: 300;
 }
 #git:hover{
     transform: scale(1.1);
-    background-color: red;   
+    background-color: #55565b   
 
+}
+#hab{
+    /* padding-right: 10%;     */
+    font-family: garamond;
+    font-weight: 300;
+}
+#hab:hover{
+    transform: scale(1.1);
+    background-color: #55565b;   
+
+}
+a :hover{
+    transform: scale(1.1);
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    list-style: none;
 }
